@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1100px; /* Increased max-width to accommodate two canvases side by side */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.canvas-container {
+    display: flex;
+    flex-direction: row; /* Changed to row to align canvases side by side */
+    align-items: center;
+    gap: 20px; /* Added gap between canvases */
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+canvas:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.result-container {
+    margin-top: 20px;
+}
+
+.result-container div {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}

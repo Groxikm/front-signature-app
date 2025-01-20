@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo for Tests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compare Signature by ID</h1>
+        <div class="form-group">
+            <input type="text" id="id" placeholder="ID" required />
+        </div>
+        <div class="canvas-container">
+            <canvas id="drawer-canvas" width="500" height="300"></canvas>
+            <canvas id="submit-canvas" width="500" height="300"></canvas>
+        </div>
+        <div class="button-container">
+            <button id="reset-button">Reset Content</button>
+            <button id="submit-button">Submit</button>
+        </div>
+        <div class="result-container">
+            <div id="string-content">String content</div>
+        </div>
+    </div>
+    <script src="drawer.js"></script>
+    <script src="demo-script.js"></script>
+</body>
+</html>
