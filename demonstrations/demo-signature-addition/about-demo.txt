@@ -1,0 +1,4 @@
+Signature addition demo
+
+This demo is to demonstrate addition of a given by user signature to the BD
+The script uses POST request to place the signature in the DB

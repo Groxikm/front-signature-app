@@ -1,0 +1,4 @@
+Signature comparison by ID
+
+This demo is to demonstrate how a given by user signature compares with the chosen by ID in the DB
+The script uses PUT request to send the written signature to the server and give the result of comparison

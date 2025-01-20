@@ -1,0 +1,5 @@
+Signature comparison by ID
+
+This demo can be run without connect to the BD
+The script sends request to the py server in order to run the comparison script
+It gives the result on the html what the percentage of match.
