@@ -22,7 +22,7 @@ submitButton.addEventListener("click", async () => {
     const ethalone = pixels2DListToString(drawCanvasData.pictureList, pixelsDelimeter, stringPixelsDelimeter);
     const comparable = pixels2DListToString(drawComparableCanvasData.pictureList, pixelsDelimeter, stringPixelsDelimeter);
     try {
-        const response = await fetch('https://signature-app-test-c8657519366a.herokuapp.com/signature/compare', {
+        const response = await fetch('http://20.2.38.219/signature/compare', {
             method: 'PUT',
             headers: {
                 "Content-Type": "application/json"
